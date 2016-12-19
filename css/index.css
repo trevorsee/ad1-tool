@@ -1,0 +1,32 @@
+/* Custom css goes here */
+/*.tokenfield .token {
+  font-size: 2rem;
+  background: #ff4136;
+  padding: .2rem .6rem;
+}*/
+
+.token {
+  display: flex;
+  background: #ff4136;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: .2rem .7rem;
+  margin: .2rem .4rem;
+}
+
+.tokenfield {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.token-input {
+  padding: .2rem .7rem;
+  width: 100%;
+  flex:none;
+}
+
+.close {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: white;
+}

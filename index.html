@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Language" content="en" />
+  <link rel="stylesheet" href="tachyons.css">
+  <link rel="stylesheet" href="index.css">
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tokenfield/0.12.0/bootstrap-tokenfield.min.js"></script>
+
+  <title>-Title-</title>
+	<meta name="title" content="-Title-">
+	<meta name="description" content="A tool for...">
+	<meta name="author" content="defaultvalue.info">
+</head>
+
+<body class="bg-white sans-serif measure-wide center pv4">
+
+  <header role="banner">
+    <nav class="flex items-center">
+      <h1 class="f5 fw4 dim link pointer">wwwwwwork</h1>
+      <a href="#" id="info" class="link underline dim red" title="Info">info</a>
+      <a href="#" id="clear" class="link underline dim red" title="Clear/Delete">clear</a>
+    </nav>
+  </header>
+
+  <input type="text" class="" id="tokenfield" />
+
+  <div class="flex">
+    <button id="info" class="red outline bg-white bn mv5 pv2 w-100 dim" title="Info">Done</button>
+    <button id="info" class="bg-red red outline bn mv5 pv2 ph4 flex-none dim" title="Info"><span class="white">Clear</span></button>
+  </div>
+
+  <div id="homepage" class="overlay fixed top-0 left-0 w-100 h-100 bg-red dn">
+  	<section class="measure-wide center">
+  		<h1>Explore the relationship between:</h1>
+  		<p>blank,</p>
+      <p>blank,</p>
+      <p>and blank.</p>
+  		<button id="start">Generate another</button>
+      <button id="exit">Close</button>
+  	</section>
+  </div>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
